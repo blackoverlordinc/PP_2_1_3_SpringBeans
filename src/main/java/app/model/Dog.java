@@ -3,13 +3,13 @@ package app.model;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component("catBean")
-public class Cat extends Animal {
+@Component("dogBean")
+public class Dog extends Animal {
     @Autowired
-    private Cat cat;
+    private Dog dog;
 
-    @Override
     public String toString() {
-        return "Im a Cat";
+        return "I am a Dog!";
     }
+
 }
